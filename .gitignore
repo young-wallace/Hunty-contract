@@ -13,11 +13,10 @@ dist/
 
 # Environment files: never commit real secrets.
 # Only `*.example` templates with placeholder values are tracked.
-.env
-.env.*
 !.env.example
 !.env.*.example
 
+temp_auto_push.bat
 *.log
 
 # Captured test output and diff files
@@ -39,3 +38,6 @@ cargo_*.log
 test_out*.txt
 test_create_out*.txt
 *_diff.txt
+.gitignore
+branch_structure.json
+config.bat
